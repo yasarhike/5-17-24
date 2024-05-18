@@ -58,9 +58,7 @@ public class ReelCommentServiceImpl implements ReelCommentService {
     }
 
     /**
-     * <p>
-     * Add a comment for the particular reel.
-     * </p>
+     * {@inheritDoc}
      *
      * @param comment Refers to the {@link Comment} object representing the comment.
      * @return A byte array representing the result of the operation.
@@ -74,9 +72,7 @@ public class ReelCommentServiceImpl implements ReelCommentService {
     }
 
     /**
-     * <p>
-     * Delete a comment for the particular reel.
-     * </p>
+     * {@inheritDoc}
      *
      * @param commentId Refers to the ID of the comment.
      * @return A byte array representing the result of the operation.

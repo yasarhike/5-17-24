@@ -1,4 +1,4 @@
-package org.example.model;
+package org.insta.orm.model;
 
 import java.util.List;
 
@@ -14,10 +14,10 @@ import java.util.List;
  */
 public class DataConfigContainer {
 
-   private String tableName;
-   private List<Column> columnList;
-   private List<JoinClause> joinClauseList;
-   private List<WhereClause> whereClauses;
+    private String tableName;
+    private List<Column> columnList;
+    private List<JoinClause> joinClauseList;
+    private List<WhereClause> whereClauses;
 
     public String getTableName() {
         return tableName;

@@ -9,7 +9,7 @@ import org.insta.authentication.model.User;
  *
  * @author Mohamed Yasar
  * @version 1.0 6 Feb 2024
- * @see UserAccountServiceImplementation
+ * @see UserAccountServiceImpl
  */
 public interface UserAccountService {
 

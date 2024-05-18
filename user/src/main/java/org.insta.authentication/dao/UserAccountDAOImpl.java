@@ -87,9 +87,7 @@ public final class UserAccountDAOImpl implements UserAccountDAO {
     }
 
     /**
-     * <p>
-     * Creates a user profile.
-     * </p>
+     * {@inheritDoc}
      *
      * @param user The {@link User} object containing the user data.
      * @return The ID of the created user profile.
@@ -147,9 +145,7 @@ public final class UserAccountDAOImpl implements UserAccountDAO {
     }
 
     /**
-     * <p>
-     * Updates a user profile.
-     * </p>
+     * {@inheritDoc}
      *
      * @param receivedObject The {@link User} object containing the updated user data.
      * @return True if the user profile is successfully updated, otherwise false.
@@ -182,9 +178,7 @@ public final class UserAccountDAOImpl implements UserAccountDAO {
     }
 
     /**
-     * <p>
-     * Updates a user profile.
-     * </p>
+     *{@inheritDoc}
      *
      * @param receivedObject The {@link User} object containing the updated user data.
      * @param tableObject    Refers the current record in the storable.
@@ -202,9 +196,7 @@ public final class UserAccountDAOImpl implements UserAccountDAO {
     }
 
     /**
-     * <p>
-     * Retrieves a user profile by ID.
-     * </p>
+     * {@inheritDoc}
      *
      * @param id The ID of the user profile to retrieve.
      * @return The user profile if found, null otherwise.
@@ -227,9 +219,7 @@ public final class UserAccountDAOImpl implements UserAccountDAO {
     }
 
     /**
-     * <p>
-     * Deletes a user profile by ID.
-     * </p>
+     * {@inheritDoc}
      *
      * @param id The ID of the user profile to delete.
      * @return True if the user profile is successfully deleted, otherwise false.
@@ -368,9 +358,7 @@ public final class UserAccountDAOImpl implements UserAccountDAO {
     }
 
     /**
-     * <p>
-     * Sets the user ID based on the generated keys in the PreparedStatement.
-     * </p>
+     * {@inheritDoc}
      *
      * @param preparedStatement The PreparedStatement containing the generated keys.
      * @param user              {@link User} The User object to set the user ID.
@@ -395,9 +383,7 @@ public final class UserAccountDAOImpl implements UserAccountDAO {
     }
 
     /**
-     * <p>
-     * Sets the user details based on the ResultSet.
-     * </p>
+     *{@inheritDoc}
      *
      * @param resultSet The ResultSet containing the generated data.
      * @return The User object with details set from the ResultSet.

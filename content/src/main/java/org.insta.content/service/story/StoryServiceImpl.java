@@ -58,9 +58,7 @@ public final class StoryServiceImpl implements StoryService {
     }
 
     /**
-     * <p>
-     * Adds a story for the specified user.
-     * </p>
+     *{@inheritDoc}
      *
      * @param story The story to add.
      * @return A byte array representing either validation violations or a success response.
@@ -74,9 +72,7 @@ public final class StoryServiceImpl implements StoryService {
     }
 
     /**
-     * <p>
-     * Removes a story with the specified ID.
-     * </p>
+     * {@inheritDoc}
      *
      * @param storyId The ID of the story to remove.
      * @return A byte array representing a manual response.
@@ -86,9 +82,7 @@ public final class StoryServiceImpl implements StoryService {
     }
 
     /**
-     * <p>
-     * Retrieves a story with the specified ID.
-     * </p>
+     * {@inheritDoc}
      *
      * @param storyId The ID of the story to retrieve.
      * @return A byte array representing the retrieved story.

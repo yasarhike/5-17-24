@@ -64,9 +64,7 @@ public final class ReelCommentDAOImpl implements ReelCommentDAO {
     }
 
     /**
-     * <p>
-     * Adds a comment for a particular reel.
-     * </p>
+     * {@inheritDoc}
      *
      * @param comment The comment to be added
      * @return The ID of the added comment, or 0 if unsuccessful
@@ -92,9 +90,7 @@ public final class ReelCommentDAOImpl implements ReelCommentDAO {
     }
 
     /**
-     * <p>
-     * Deletes a comment for a particular reel.
-     * </p>
+     * {@inheritDoc}
      *
      * @param commentId The ID of the comment to be deleted
      * @return true if the comment is deleted successfully, otherwise false

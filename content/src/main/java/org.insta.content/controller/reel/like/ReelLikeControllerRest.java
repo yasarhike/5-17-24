@@ -1,5 +1,6 @@
 package org.insta.content.controller.reel.like;
 
+import org.insta.content.service.reel.like.ReelLikeService;
 import org.insta.content.service.reel.like.ReelLikeServiceImpl;
 
 import javax.ws.rs.DELETE;
@@ -25,7 +26,7 @@ import javax.ws.rs.core.MediaType;
 @Path("/reellike")
 public final class ReelLikeControllerRest {
 
-    private final ReelLikeServiceImpl reelLikeService;
+    private final ReelLikeService reelLikeService;
 
     /**
      * <p>

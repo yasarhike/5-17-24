@@ -1,14 +1,20 @@
-package org.example.model;
+package org.insta.orm.model;
 
 import java.util.List;
 
+/**
+ * <p>
+ * Represents a database table, containing a name and a list of columns.
+ * This class provides methods to set and get the table name and the list of columns.
+ * </p>
+ *
+ * @author Mohamed Yasar
+ * @version 1.0 6 Feb 2024
+ */
 public class Table {
 
     private String tableName;
     private List<Column> columnList;
-
-    public Table() {
-    }
 
     public Table (final String tableName, final List<Column> columnList) {
         this.tableName = tableName;
@@ -30,5 +36,4 @@ public class Table {
     public void setColumnList(final List<Column> columnList) {
         this.columnList = columnList;
     }
-
 }

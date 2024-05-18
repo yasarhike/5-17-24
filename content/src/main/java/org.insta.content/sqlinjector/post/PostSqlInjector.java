@@ -1,14 +1,13 @@
 package org.insta.content.sqlinjector.post;
 
-import org.example.querybuilder.DeleteQueryBuilder;
-import org.example.querybuilder.InsertQueryBuilder;
-import org.example.querybuilder.SelectQueryBuilder;
-import org.example.model.Column;
-import org.example.model.DataConfigContainer;
-import org.example.model.JoinClause;
-import org.example.model.JoinType;
-import org.example.model.SubQueryClause;
-import org.example.model.WhereClause;
+import org.insta.orm.querybuilder.DeleteQueryBuilder;
+import org.insta.orm.querybuilder.InsertQueryBuilder;
+import org.insta.orm.querybuilder.SelectQueryBuilder;
+import org.insta.orm.model.Column;
+import org.insta.orm.model.DataConfigContainer;
+import org.insta.orm.model.JoinClause;
+import org.insta.orm.model.JoinType;
+import org.insta.orm.model.WhereClause;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -121,7 +120,6 @@ public class PostSqlInjector {
         final DataConfigContainer dataConfigContainer = new DataConfigContainer();
         final List<Column> columnList = new ArrayList<>();
         final List<WhereClause> whereClauseList = new ArrayList<>();
-        final List<SubQueryClause> subQueryClauses = new ArrayList<>();
         final List<JoinClause> joinClauseList = new ArrayList<>();
 
         columnList.add(new Column("id", "post"));

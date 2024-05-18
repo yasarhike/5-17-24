@@ -66,9 +66,7 @@ public final class StoryServiceDAOImpl implements StoryServiceDAO {
     }
 
     /**
-     * <p>
-     * Adds a story for the specified user.
-     * </p>
+     * {@inheritDoc}
      *
      * @param story The story to be added.
      * @return The ID of the added story if successful, otherwise 0.
@@ -96,9 +94,7 @@ public final class StoryServiceDAOImpl implements StoryServiceDAO {
     }
 
     /**
-     * <p>
-     * Removes a story with the specified ID.
-     * </p>
+     * {@inheritDoc}
      *
      * @param id The ID of the story to be removed.
      * @return True if the story is successfully removed, otherwise false.
@@ -118,9 +114,7 @@ public final class StoryServiceDAOImpl implements StoryServiceDAO {
     }
 
     /**
-     * <p>
-     * Retrieves a story with the specified ID.
-     * </p>
+     * {@inheritDoc}
      *
      * @param id The ID of the story to be retrieved.
      * @return The retrieved story, or null if not found.

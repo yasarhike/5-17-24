@@ -66,9 +66,7 @@ public final class PostShareDAOImpl implements PostShareDAO {
     }
 
     /**
-     * <p>
-     * Shares a post.
-     * </p>
+     * {@inheritDoc}
      *
      * @param postId the ID of the post to be shared
      * @param userId the ID of the user sharing the post
@@ -94,9 +92,7 @@ public final class PostShareDAOImpl implements PostShareDAO {
     }
 
     /**
-     * <p>
-     * Unshares a post.
-     * </p>
+     *{@inheritDoc}
      *
      * @param shareId the ID of the share to be removed
      * @return true if the share is removed successfully, otherwise false

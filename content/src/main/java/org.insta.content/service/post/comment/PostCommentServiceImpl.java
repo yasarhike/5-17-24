@@ -51,9 +51,7 @@ public class PostCommentServiceImpl implements PostCommentService {
     }
 
     /**
-     * <p>
-     * Adds a comment for the post.
-     * </p>
+     * {@inheritDoc}
      *
      * @param comment the comment to be added
      * @return a byte array representing the result of the operation
@@ -66,9 +64,7 @@ public class PostCommentServiceImpl implements PostCommentService {
     }
 
     /**
-     * <p>
-     * Deletes a comment for the post.
-     * </p>
+     * {@inheritDoc}
      *
      * @param id the ID of the comment to be deleted
      * @return a byte array representing the result of the operation

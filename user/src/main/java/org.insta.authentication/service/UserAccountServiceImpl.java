@@ -18,7 +18,7 @@ import java.util.List;
  * @see ObjectValidator
  * @see UserAccountDAOImpl
  */
-public final class UserAccountServiceImplementation implements UserAccountService {
+public final class UserAccountServiceImpl implements UserAccountService {
 
     private final UserAccountDAO userAccountDAO;
     private final ObjectValidator objectValidator;
@@ -28,7 +28,7 @@ public final class UserAccountServiceImplementation implements UserAccountServic
      * Private constructor to restrict object creation outside the class
      * </p>
      */
-    private UserAccountServiceImplementation() {
+    private UserAccountServiceImpl() {
         userAccountDAO = UserAccountDAOImpl.getInstance();
         objectValidator = ObjectValidator.getInstance();
     }
@@ -45,9 +45,7 @@ public final class UserAccountServiceImplementation implements UserAccountServic
     }
 
     /**
-     * <p>
-     * Creates a new user profile.
-     * </p>
+     * {@inheritDoc}
      *
      * @param user The user object containing the user data to be created.
      * @return A byte array representing the created user profile, or null if creation failed.
@@ -65,9 +63,7 @@ public final class UserAccountServiceImplementation implements UserAccountServic
     }
 
     /**
-     * <p>
-     * Retrieves a user profile based on the provided user ID.
-     * </p>
+     * {@inheritDoc}
      *
      * @param id The ID of the user profile to retrieve.
      * @return A byte array representing the retrieved user profile, or null if no profile found.
@@ -77,9 +73,7 @@ public final class UserAccountServiceImplementation implements UserAccountServic
     }
 
     /**
-     * <p>
-     * Updates an existing user profile.
-     * </p>
+     * {@inheritDoc}
      *
      * @param user The user object containing the updated user data.
      * @return A byte array representing the updated user profile, or null if update failed.
@@ -95,9 +89,7 @@ public final class UserAccountServiceImplementation implements UserAccountServic
     }
 
     /**
-     * <p>
-     * Deletes a user profile based on the provided user ID.
-     * </p>
+     * {@inheritDoc}
      *
      * @param id The ID of the user profile to delete.
      * @return A byte array representing the deleted user profile, or null if update failed.
@@ -113,7 +105,7 @@ public final class UserAccountServiceImplementation implements UserAccountServic
      */
     private static class InstanceHolder {
 
-        private static final UserAccountService userAccountServiceImplementation = new UserAccountServiceImplementation();
+        private static final UserAccountService userAccountServiceImplementation = new UserAccountServiceImpl();
     }
 }
 

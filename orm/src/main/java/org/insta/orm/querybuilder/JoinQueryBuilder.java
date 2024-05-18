@@ -1,4 +1,7 @@
-package org.example.model;
+package org.insta.orm.querybuilder;
+
+import org.insta.orm.model.JoinClause;
+import org.insta.orm.model.Keywords;
 
 import java.util.ArrayList;
 import java.util.List;

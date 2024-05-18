@@ -57,9 +57,7 @@ public final class StoryLikeServiceImpl implements StoryLikeService {
 
 
     /**
-     * <p>
-     * Adds a like for the particular story.
-     * </p>
+     * {@inheritDoc}
      *
      * @param userId  The ID of the user liking the story.
      * @param storyId The ID of the story to like.
@@ -71,9 +69,7 @@ public final class StoryLikeServiceImpl implements StoryLikeService {
     }
 
     /**
-     * <p>
-     * Removes a like for the particular story.
-     * </p>
+     * {@inheritDoc}
      *
      * @param id The ID of the story to unlike.
      * @return A byte array representing a manual response.

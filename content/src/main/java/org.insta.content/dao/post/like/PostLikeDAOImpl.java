@@ -61,9 +61,7 @@ public final class PostLikeDAOImpl implements PostLikeDAO {
     }
 
     /**
-     * <p>
-     * Add a like for the particular post
-     * </p>
+     * {@inheritDoc}
      *
      * @param postId Refers the postId for the user.
      * @return True if the like is added successfully, otherwise false.

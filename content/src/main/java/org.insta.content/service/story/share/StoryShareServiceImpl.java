@@ -56,9 +56,7 @@ public class StoryShareServiceImpl implements StoryShareService {
     }
 
     /**
-     * <p>
-     * Shares a story with the specified story ID and user ID.
-     * </p>
+     *{@inheritDoc}
      *
      * @param storyId The ID of the story to share.
      * @param userId  The ID of the user sharing the story.
@@ -70,9 +68,7 @@ public class StoryShareServiceImpl implements StoryShareService {
     }
 
     /**
-     * <p>
-     * Unshares a story with the specified story ID.
-     * </p>
+     * {@inheritDoc}
      *
      * @param storyId The ID of the story to unshare.
      * @return A byte array representing a manual response.

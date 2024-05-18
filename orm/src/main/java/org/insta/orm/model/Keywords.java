@@ -1,8 +1,8 @@
-package org.example.model;
+package org.insta.orm.model;
 
 /**
  * <p>
- * Enum representing the different types of Keywords in sql.
+ * Representing the different types of Keywords in sql.
  * </p>
  *
  * @author Mohamed Yasar

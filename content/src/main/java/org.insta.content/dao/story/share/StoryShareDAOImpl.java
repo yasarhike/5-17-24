@@ -62,9 +62,7 @@ public class StoryShareDAOImpl implements StoryShareDAO {
     }
 
     /**
-     * <p>
-     * Adds a share for the specified story.
-     * </p>
+     * {@inheritDoc}
      *
      * @param storyId  The ID of the story to be shared.
      * @param sharedBy The ID of the user who shared the story.
@@ -91,9 +89,7 @@ public class StoryShareDAOImpl implements StoryShareDAO {
     }
 
     /**
-     * <p>
-     * Removes a share for the specified story.
-     * </p>
+     * {@inheritDoc}
      *
      * @param id The ID of the story to be unshared.
      * @return True if the share is successfully removed, otherwise false.

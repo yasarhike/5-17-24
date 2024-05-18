@@ -56,9 +56,7 @@ public class ReelShareServiceImpl implements ReelShareService {
     }
 
     /**
-     * <p>
-     * Add the people who shared the reel.
-     * </p>
+     * {@inheritDoc}
      *
      * @param userId Refers to the id of the user.
      * @param reelId Refers to the reelId of the reel.
@@ -70,9 +68,7 @@ public class ReelShareServiceImpl implements ReelShareService {
     }
 
     /**
-     * <p>
-     * Remove the people who unshared the reel.
-     * </p>
+     * {@inheritDoc}
      *
      * @param id Refers to the id of the user.
      * @return True if it is unshared successfully, otherwise false.

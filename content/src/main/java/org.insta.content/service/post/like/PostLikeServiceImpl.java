@@ -51,9 +51,7 @@ public final class PostLikeServiceImpl implements PostLikeService {
     }
 
     /**
-     * <p>
-     * Adds a like for the particular post.
-     * </p>
+     *{@inheritDoc}
      *
      * @param userId the ID of the user
      * @param postId the ID of the post
@@ -64,9 +62,7 @@ public final class PostLikeServiceImpl implements PostLikeService {
     }
 
     /**
-     * <p>
-     * Removes a like for a particular post.
-     * </p>
+     * {@inheritDoc}
      *
      * @param postId the ID of the post
      * @return a byte array representing the result of the operation

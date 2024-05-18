@@ -1,19 +1,16 @@
 package org.insta.authentication.querystructureinjector.account;
 
-import org.example.querybuilder.DeleteQueryBuilder;
-import org.example.querybuilder.InsertQueryBuilder;
-import org.example.querybuilder.SelectQueryBuilder;
-import org.example.querybuilder.UpdateQueryBuilder;
-import org.example.model.Column;
-import org.example.model.DataConfigContainer;
-import org.example.model.JoinClause;
-import org.example.model.JoinType;
-import org.example.model.WhereClause;
-import org.insta.authentication.dao.UserAccountDAO;
-import org.insta.authentication.dao.UserAccountDAOImpl;
+import org.insta.orm.querybuilder.DeleteQueryBuilder;
+import org.insta.orm.querybuilder.InsertQueryBuilder;
+import org.insta.orm.querybuilder.SelectQueryBuilder;
+import org.insta.orm.querybuilder.UpdateQueryBuilder;
+import org.insta.orm.model.Column;
+import org.insta.orm.model.DataConfigContainer;
+import org.insta.orm.model.JoinClause;
+import org.insta.orm.model.JoinType;
+import org.insta.orm.model.WhereClause;
 
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.List;
 
 /**

@@ -1,5 +1,14 @@
-package org.example.model;
+package org.insta.orm.model;
 
+/**
+ * <p>
+ * Represents a SQL WHERE clause, containing a column name and an optional table name.
+ * This class provides methods to set and get the column name and the table name.
+ * </p>
+ *
+ * @author Mohamed Yasar
+ * @version 1.0 6 Feb 2024
+ */
 public class WhereClause {
 
     private String columnName;
@@ -19,16 +28,8 @@ public class WhereClause {
         return operator;
     }
 
-    public void setOperator(final String operator) {
-        this.operator = operator;
-    }
-
     public String getColumnName() {
         return columnName;
-    }
-
-    public void setColumnName(final String columnName) {
-        this.columnName = columnName;
     }
 
     public void setTableName(final String tableName) {

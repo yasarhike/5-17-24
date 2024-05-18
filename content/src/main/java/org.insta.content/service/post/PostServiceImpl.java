@@ -55,9 +55,7 @@ public final class PostServiceImpl implements PostService {
     }
 
     /**
-     * <p>
-     * Adds a post for the specified user.
-     * </p>
+     * {@inheritDoc}
      *
      * @param post the post to be added
      * @return a byte array representing the result of the operation
@@ -70,9 +68,7 @@ public final class PostServiceImpl implements PostService {
     }
 
     /**
-     * <p>
-     * Removes a post with the specified ID.
-     * </p>
+     *{@inheritDoc}
      *
      * @param postId the ID of the post to be removed
      * @return a byte array representing the result of the operation
@@ -82,9 +78,7 @@ public final class PostServiceImpl implements PostService {
     }
 
     /**
-     * <p>
-     * Retrieves a post with the specified ID.
-     * </p>
+     * {@inheritDoc}
      *
      * @param id the ID of the post to be retrieved
      * @return a byte array representing the retrieved post

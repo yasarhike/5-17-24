@@ -68,9 +68,7 @@ public final class ReelServiceDAOImpl implements ReelServiceDAO {
     }
 
     /**
-     * <p>
-     * Adds a reel for the user account.
-     * </p>
+     * {@inheritDoc}
      *
      * @param reel The reel to be added.
      * @return The ID of the added reel if successful, otherwise 0.
@@ -98,9 +96,7 @@ public final class ReelServiceDAOImpl implements ReelServiceDAO {
     }
 
     /**
-     * <p>
-     * Deletes a reel for the user account.
-     * </p>
+     * {@inheritDoc}
      *
      * @param reelId The ID of the reel to be deleted.
      * @return True if the reel is deleted successfully, otherwise false.

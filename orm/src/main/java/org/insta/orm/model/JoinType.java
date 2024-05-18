@@ -1,8 +1,8 @@
-package org.example.model;
+package org.insta.orm.model;
 
 /**
  * <p>
- * Enum representing the different types of SQL join operations.
+ * Representing the different types of SQL join operations.
  * </p>
  *
  * @author Mohamed Yasar

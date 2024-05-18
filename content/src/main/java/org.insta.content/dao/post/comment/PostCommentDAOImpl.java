@@ -67,9 +67,7 @@ public final class PostCommentDAOImpl implements PostCommentDAO {
     }
 
     /**
-     * <p>
-     * Adds a comment for the post.
-     * </p>
+     * {@inheritDoc}
      *
      * @param comment the comment to be added
      * @return the ID of the added comment, or 0 if unsuccessful
@@ -92,9 +90,7 @@ public final class PostCommentDAOImpl implements PostCommentDAO {
     }
 
     /**
-     * <p>
-     * Delete a comment for the post
-     * </p>
+     * {@inheritDoc}
      *
      * @param id Refers the commentId for the post.
      * @return True if the comment is deleted successfully, otherwise false.

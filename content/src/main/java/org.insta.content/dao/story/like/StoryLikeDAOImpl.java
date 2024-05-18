@@ -62,9 +62,7 @@ public final class StoryLikeDAOImpl implements StoryLikeDAO {
     }
 
     /**
-     * <p>
-     * Adds a like for the specified story by the user.
-     * </p>
+     *{@inheritDoc}
      *
      * @param userId  The ID of the user who likes the story.
      * @param storyId The ID of the story to be liked.
@@ -89,9 +87,7 @@ public final class StoryLikeDAOImpl implements StoryLikeDAO {
     }
 
     /**
-     * <p>
-     * Removes a like for the specified story.
-     * </p>
+     * {@inheritDoc}
      *
      * @param storyId The ID of the story like to be removed.
      * @return True if the like is removed successfully, otherwise false.

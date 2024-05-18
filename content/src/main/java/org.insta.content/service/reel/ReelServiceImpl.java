@@ -60,9 +60,7 @@ public final class ReelServiceImpl implements ReelService {
     }
 
     /**
-     * <p>
-     * Adds a reel for the specified user.
-     * </p>
+     * {@inheritDoc}
      *
      * @param reel The reel to add.
      * @return A byte array representing either validation violations or a success response.
@@ -76,9 +74,7 @@ public final class ReelServiceImpl implements ReelService {
     }
 
     /**
-     * <p>
-     * Removes a reel with the specified ID.
-     * </p>
+     *{@inheritDoc}
      *
      * @param reelId The ID of the reel to remove.
      * @return A byte array representing a manual response.
@@ -88,9 +84,7 @@ public final class ReelServiceImpl implements ReelService {
     }
 
     /**
-     * <p>
-     * Retrieves a reel with the specified ID.
-     * </p>
+     * {@inheritDoc}
      *
      * @param reelId The ID of the reel to retrieve.
      * @return A byte array representing the retrieved reel.

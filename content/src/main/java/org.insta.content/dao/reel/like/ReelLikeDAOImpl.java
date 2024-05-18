@@ -63,9 +63,7 @@ public final class ReelLikeDAOImpl implements ReelLikeDAO {
     }
 
     /**
-     * <p>
-     * Adds a like for a particular reel.
-     * </p>
+     * {@inheritDoc}
      *
      * @param reelId The ID of the reel to like
      * @param userId The ID of the user performing the like
@@ -91,9 +89,7 @@ public final class ReelLikeDAOImpl implements ReelLikeDAO {
     }
 
     /**
-     * <p>
-     * Unlikes a particular reel.
-     * </p>
+     * {@inheritDoc}
      *
      * @param id The ID of the reel to unlike
      * @return true if the reel is unliked successfully, otherwise false

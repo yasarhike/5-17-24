@@ -71,9 +71,7 @@ public final class PostServiceDAOImpl implements PostServiceDAO {
     }
 
     /**
-     * <p>
-     * Posts a video or image for the user account.
-     * </p>
+     * {@inheritDoc}
      *
      * @param post the post to be added
      * @return the ID of the added post, or 0 if unsuccessful
@@ -100,9 +98,7 @@ public final class PostServiceDAOImpl implements PostServiceDAO {
     }
 
     /**
-     * <p>
-     * Deletes a post for the user account.
-     * </p>
+     *{@inheritDoc}
      *
      * @param id the ID of the post to be removed
      * @return true if the post is removed successfully, otherwise false
@@ -122,9 +118,7 @@ public final class PostServiceDAOImpl implements PostServiceDAO {
     }
 
     /**
-     * <p>
-     * Retrieves a post with the specified ID.
-     * </p>
+     * {@inheritDoc}
      *
      * @param postId the ID of the post to be retrieved
      * @return the retrieved post, or null if not found

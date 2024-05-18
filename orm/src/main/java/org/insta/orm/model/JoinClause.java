@@ -1,4 +1,4 @@
-package org.example.model;
+package org.insta.orm.model;
 
 /**
  * <p>
@@ -18,14 +18,15 @@ public class JoinClause {
     private String rightColumn;
     private JoinType joinType;
 
-    public JoinClause(final String leftTable, final String leftColumn, final String righTable, final String rightColumn,
+    public JoinClause(final String leftTable, final String leftColumn, final String rightTable, final String rightColumn,
                       final JoinType joinType) {
         this.leftTable = leftTable;
         this.leftColumn = leftColumn;
-        this.rightTable = righTable;
+        this.rightTable = rightTable;
         this.rightColumn = rightColumn;
         this.joinType = joinType;
     }
+
     public JoinType getJoinType() {
         return joinType;
     }

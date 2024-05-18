@@ -62,9 +62,7 @@ public final class ReelShareDAOImpl implements ReelShareDAO {
     }
 
     /**
-     * <p>
-     * Adds a user who shared the reel.
-     * </p>
+     * {@inheritDoc}
      *
      * @param userId The ID of the user who shared the reel.
      * @param reelId The ID of the reel being shared.
@@ -90,9 +88,7 @@ public final class ReelShareDAOImpl implements ReelShareDAO {
     }
 
     /**
-     * <p>
-     * Removes a user who unshared the reel.
-     * </p>
+     *{@inheritDoc}
      *
      * @param id The ID of the share record to be removed.
      * @return True if the user is successfully removed as a sharer, otherwise false.

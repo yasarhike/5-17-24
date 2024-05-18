@@ -1,4 +1,4 @@
-package org.example.model;
+package org.insta.orm.model;
 
 /**
  * <p>
@@ -28,15 +28,11 @@ public class Column {
         return columnName;
     }
 
-    public void setColumnName(final String columnName) {
-        this.columnName = columnName;
+    public String getTableName() {
+        return tableName;
     }
 
     public void setTableName(final String tableName) {
         this.tableName = tableName;
-    }
-
-    public String getTableName() {
-        return tableName;
     }
 }

@@ -2,7 +2,7 @@ package org.insta.authentication.controller;
 
 import org.insta.authentication.model.User;
 import org.insta.authentication.service.UserAccountService;
-import org.insta.authentication.service.UserAccountServiceImplementation;
+import org.insta.authentication.service.UserAccountServiceImpl;
 
 import javax.ws.rs.Consumes;
 import javax.ws.rs.DELETE;
@@ -13,7 +13,6 @@ import javax.ws.rs.Path;
 import javax.ws.rs.PathParam;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
-import java.util.Objects;
 
 /**
  * <p>
@@ -24,7 +23,7 @@ import java.util.Objects;
  * This class represents a RESTful controller for managing user accounts. It exposes endpoints for handling
  * operations such as creating new user profiles, retrieving user profiles by ID, updating user profiles,
  * and deleting user profiles. The actual implementation of these operations is delegated to the
- * {@link UserAccountServiceImplementation} class.
+ * {@link UserAccountServiceImpl} class.
  * </p>
  *
  * <p>
@@ -34,7 +33,7 @@ import java.util.Objects;
  *
  * @author Mohamed Yasar
  * @version 1.0 6 Feb 2024
- * @see UserAccountServiceImplementation
+ * @see UserAccountServiceImpl
  */
 @Path("/authentication")
 public final class UserAccountControllerRest {
@@ -45,7 +44,7 @@ public final class UserAccountControllerRest {
      * Restrict object creation outside the class.
      */
     private UserAccountControllerRest() {
-        userAccountServiceImplementation = UserAccountServiceImplementation.getInstance();
+        userAccountServiceImplementation = UserAccountServiceImpl.getInstance();
     }
 
     /**

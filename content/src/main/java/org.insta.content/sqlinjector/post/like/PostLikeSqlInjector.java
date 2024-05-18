@@ -1,10 +1,10 @@
 package org.insta.content.sqlinjector.post.like;
 
-import org.example.querybuilder.DeleteQueryBuilder;
-import org.example.querybuilder.InsertQueryBuilder;
-import org.example.model.Column;
-import org.example.model.DataConfigContainer;
-import org.example.model.WhereClause;
+import org.insta.orm.querybuilder.DeleteQueryBuilder;
+import org.insta.orm.querybuilder.InsertQueryBuilder;
+import org.insta.orm.model.Column;
+import org.insta.orm.model.DataConfigContainer;
+import org.insta.orm.model.WhereClause;
 
 import java.util.ArrayList;
 import java.util.List;

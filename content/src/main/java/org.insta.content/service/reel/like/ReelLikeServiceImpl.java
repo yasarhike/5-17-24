@@ -56,9 +56,7 @@ public class ReelLikeServiceImpl implements ReelLikeService{
     }
 
     /**
-     * <p>
-     * Remove a like for the particular reel.
-     * </p>
+     * {@inheritDoc}
      *
      * @param reelId Refers to the id of the reel.
      * @param userId Refers to the id of the user.
@@ -69,9 +67,7 @@ public class ReelLikeServiceImpl implements ReelLikeService{
     }
 
     /**
-     * <p>
-     * Remove a like for the particular reel.
-     * </p>
+     *{@inheritDoc}
      *
      * @param id Refers to the ID of the user.
      * @return A byte array representing the result of the operation.

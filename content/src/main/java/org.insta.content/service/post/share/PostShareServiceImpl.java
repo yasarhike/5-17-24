@@ -50,9 +50,7 @@ public final class PostShareServiceImpl implements PostShareService{
     }
 
     /**
-     * <p>
-     * Shares a post.
-     * </p>
+     * {@inheritDoc}
      *
      * @param postId the ID of the post to be shared
      * @param userId the ID of the user sharing the post
@@ -64,9 +62,7 @@ public final class PostShareServiceImpl implements PostShareService{
     }
 
     /**
-     * <p>
-     * Unshares a post.
-     * </p>
+     * {@inheritDoc}
      *
      * @param shareId the ID of the post share to be removed
      * @return a byte array representing the result of the operation
